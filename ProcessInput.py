@@ -1,4 +1,5 @@
 import pandas
+import UserInterface
 
 
 class HouseNode:
@@ -43,9 +44,5 @@ def read_from_file_pandas():
 
     return houses_list
 
-if __name__ == '__main__':
-    houses = read_from_file_pandas()
-    for l in houses:
-        print(l.address)
 
 
