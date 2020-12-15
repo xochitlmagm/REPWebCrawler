@@ -1,5 +1,21 @@
-﻿Address,City,State,Price,NumBeds,NumBaths,SqFootage,Lot,YearBuilt,Garage,Backyard,Basement
-New Build Cedar Ridge,Boise,ID,535000,4,3,2460,U,2020,T,F,F
-14563 W Kensington Ct,Boise,ID,989000,4,2.5,3475,0.28 acres,2000,T,T,F
-4402 N Ute,Boise ,ID,499000,4,2,2219,8276 sqft,1977,T,T,T
-4513 W Freemont St,Boise,ID,419000,3,2,1872,6098 stft,1930,F,T,F
+﻿Index,Address,City,State,Price,NumBeds,NumBaths,SqFootage,Lot,YearBuilt,Garage,Backyard,Basement
+1,New Build Cedar Ridge,Boise,ID,535000,4,3,2460,10890,2020,T,F,F
+2,14563 W Kensington Ct,Boise,ID,989000,4,2.5,3475,12196,2000,T,T,F
+3,4402 N Ute,Boise ,ID,499000,4,2,2219,8276,1977,T,T,T
+4,4513 W Freemont St,Boise,ID,419000,3,2,1872,6098,1930,F,T,F
+5,395 E Sydmor Drive,Boise,ID,650000,3,3,2312,4704,2013,T,F,T
+6,12298 W Murchison St,Boise ,ID,524900,5,2.5,3030,9583,2005,T,T,F
+7,12078 W Honey Dew Dr,Boise,ID,425000,4,2.5,2135,8712,2007,T,T,F
+8,6105 S Egmont Ave,Boise,ID,430000,4,2.5,2397,6011,2007,T,T,F
+9,13487 N 3rd Ave,Boise,ID,520000,3,2.5,2054,10018,2000,T,T,F
+10,328 N Coston St,Boise,ID,1100000,3,4,2800,10890,2020,T,T,F
+11,10765 W Highlander Cir,Boise,ID,435000,3,2.5,1740,400075,1973,T,T,F
+12,1303 Daventry Pl,Midland ,TX,489900,4,4,3362,13068,1985,T,F,F
+13,6709 Mosswood Dr,Midland ,TX,562500,4,3,3222,8012,2017,T,F,F
+14,1920 Centerview,Midland ,TX,545000,5,4,3469,9670,1991,T,T,F
+15,3800 Timber Wolf Trail,Midland ,TX,700000,4,4,3924,209088,2016,T,T,F
+16,5310 Oak Valley Dr,Midland ,TX,474000,3,3,2838,9583,2008,T,T,F
+17,6405 Driftwood Dr,Midland ,TX,514000,3,2,3222,14374,1982,T,T,F
+18,4600 Cherrywood Drive,Midland ,TX,455000,5,3,2737,10890,1996,T,T,F
+19,3 Lazywood Ln,Midland ,TX,975000,4,4,4488,57934,1968,T,T,F
+19,3 FakeHouse,Midland ,TX,975000,3,2,1900,57934,1968,T,T,F

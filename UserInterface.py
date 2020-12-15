@@ -3,7 +3,7 @@ from tkinter import *
 
 
 class UserInterface:
-    def BuildUI():
+    def build_ui():
         # for the user interface
         from tkinter import ttk
 
@@ -52,10 +52,9 @@ class UserInterface:
         # add button to gui window
         # find.pack_slaves()
 
-
         ui.mainloop()
 
 
 def BuildUI():
-    UserInterface.BuildUI()
+    UserInterface.build_ui()
     return None
