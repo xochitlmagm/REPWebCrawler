@@ -1,0 +1,91 @@
+,Address,"Town, State",Price,Beds,Sqft,Baths
+0,3020 E Hills Dr,"Alum Rock-East Foothills, San Jose, CA","$699,000",3,"1,100",2
+1,847 Whitethorne Dr,"Willow Glen, San Jose, CA","$1,095,000",3,"1,477",2
+2,4617 Holycon Cir,"Blossom Valley, San Jose, CA","$999,000",3,"1,442",2
+3,2381 Bentley Ridge Dr,"Evergreen, San Jose, CA","$2,388,000",4,"3,365",4
+4,1770 Arbor Dr,"Willow Glen, San Jose, CA","$1,099,000",3,"1,161",2
+5,2705 Gomes Dr,"Berryessa, San Jose, CA","$998,000",4,"1,444",2
+6,4138 Santa Susana Way,"Edenvale - Seven Trees, San Jose, CA","$699,000",3,900,1
+7,1716 Mendenhall Dr,"West San Jose, San Jose, CA","$1,098,000",4,"1,507",2
+8,629 S 22nd St,"Downtown, San Jose, CA","$949,000",4,"1,816",3
+9,6777 Muscat Dr,"Santa Teresa, San Jose, CA","$850,000",4,"1,308",2
+10,3514 El Grande Dr,"Berryessa, San Jose, CA","$1,199,000",3,"1,822",2
+11,6130 Franciscan Ct,"Almaden Valley, San Jose, CA","$1,350,000",5,"2,278",3
+12,6582 Crystal Springs Dr,"Almaden Valley, San Jose, CA","$2,475,000",4,"2,328",3
+13,106 Spyglass Hill Rd,"Berryessa, San Jose, CA","$780,000",3,"1,781",3
+14,6336 Mountford Dr,"Blossom Valley, San Jose, CA","$1,088,888",4,"1,475",2
+15,1441 Cottlestone Ct,"Evergreen, San Jose, CA","$1,999,999",5,"3,507",3
+16,5530 Chesbro Ave,"Blossom Valley, San Jose, CA","$969,000",3,"1,520",2
+17,1198 Kimberly Dr,"Cambrian Park, San Jose, CA","$1,250,000",3,"1,674",3
+18,1650 Fairorchard Ave,"Willow Glen, San Jose, CA","$1,525,000",4,"1,656",2
+19,2124 Alexian Dr,"North Valley, San Jose, CA","$535,000",3,"1,165",2
+20,3507 Jonathan Rachelle Ct,"Evergreen, San Jose, CA","$2,345,000",5,"4,065",5
+21,282 Challenger Ave,"Alum Rock-East Foothills, San Jose, CA","$799,999",4,"1,828",3
+22,236 Manley Ct,"Santa Teresa, San Jose, CA","$1,098,000",4,"2,298",3
+23,6544 Hercus Ct,"Santa Teresa, San Jose, CA","$1,250,000",4,"2,256",3
+24,241 Vineyard Dr,"Santa Teresa, San Jose, CA","$875,000",4,"1,308",2
+25,2514 Vista Verde Dr,"Evergreen, San Jose, CA","$1,038,000",4,"2,098",3
+26,4975 Roeder Rd,"Edenvale - Seven Trees, San Jose, CA","$760,000",3,960,1
+27,2005 Mary Helen Ln,"Fairgrounds, San Jose, CA","$998,000",3,"2,411",4
+28,2579 Sierra Rd,"Berryessa, San Jose, CA","$888,888",4,"1,393",2
+29,516 Almaden Walk Loop,"Willow Glen, San Jose, CA","$880,000",3,"1,425",3
+30,3020 E Hills Dr,"Alum Rock-East Foothills, San Jose, CA","$699,000",3,"1,100",2
+31,847 Whitethorne Dr,"Willow Glen, San Jose, CA","$1,095,000",3,"1,477",2
+32,4617 Holycon Cir,"Blossom Valley, San Jose, CA","$999,000",3,"1,442",2
+33,2381 Bentley Ridge Dr,"Evergreen, San Jose, CA","$2,388,000",4,"3,365",4
+34,1770 Arbor Dr,"Willow Glen, San Jose, CA","$1,099,000",3,"1,161",2
+35,2705 Gomes Dr,"Berryessa, San Jose, CA","$998,000",4,"1,444",2
+36,4138 Santa Susana Way,"Edenvale - Seven Trees, San Jose, CA","$699,000",3,900,1
+37,1716 Mendenhall Dr,"West San Jose, San Jose, CA","$1,098,000",4,"1,507",2
+38,629 S 22nd St,"Downtown, San Jose, CA","$949,000",4,"1,816",3
+39,6777 Muscat Dr,"Santa Teresa, San Jose, CA","$850,000",4,"1,308",2
+40,3514 El Grande Dr,"Berryessa, San Jose, CA","$1,199,000",3,"1,822",2
+41,6130 Franciscan Ct,"Almaden Valley, San Jose, CA","$1,350,000",5,"2,278",3
+42,6582 Crystal Springs Dr,"Almaden Valley, San Jose, CA","$2,475,000",4,"2,328",3
+43,106 Spyglass Hill Rd,"Berryessa, San Jose, CA","$780,000",3,"1,781",3
+44,6336 Mountford Dr,"Blossom Valley, San Jose, CA","$1,088,888",4,"1,475",2
+45,1441 Cottlestone Ct,"Evergreen, San Jose, CA","$1,999,999",5,"3,507",3
+46,5530 Chesbro Ave,"Blossom Valley, San Jose, CA","$969,000",3,"1,520",2
+47,1198 Kimberly Dr,"Cambrian Park, San Jose, CA","$1,250,000",3,"1,674",3
+48,1650 Fairorchard Ave,"Willow Glen, San Jose, CA","$1,525,000",4,"1,656",2
+49,2124 Alexian Dr,"North Valley, San Jose, CA","$535,000",3,"1,165",2
+50,3507 Jonathan Rachelle Ct,"Evergreen, San Jose, CA","$2,345,000",5,"4,065",5
+51,282 Challenger Ave,"Alum Rock-East Foothills, San Jose, CA","$799,999",4,"1,828",3
+52,236 Manley Ct,"Santa Teresa, San Jose, CA","$1,098,000",4,"2,298",3
+53,6544 Hercus Ct,"Santa Teresa, San Jose, CA","$1,250,000",4,"2,256",3
+54,241 Vineyard Dr,"Santa Teresa, San Jose, CA","$875,000",4,"1,308",2
+55,2514 Vista Verde Dr,"Evergreen, San Jose, CA","$1,038,000",4,"2,098",3
+56,4975 Roeder Rd,"Edenvale - Seven Trees, San Jose, CA","$760,000",3,960,1
+57,2005 Mary Helen Ln,"Fairgrounds, San Jose, CA","$998,000",3,"2,411",4
+58,2579 Sierra Rd,"Berryessa, San Jose, CA","$888,888",4,"1,393",2
+59,516 Almaden Walk Loop,"Willow Glen, San Jose, CA","$880,000",3,"1,425",3
+60,3020 E Hills Dr,"Alum Rock-East Foothills, San Jose, CA","$699,000",3,"1,100",2
+61,847 Whitethorne Dr,"Willow Glen, San Jose, CA","$1,095,000",3,"1,477",2
+62,4617 Holycon Cir,"Blossom Valley, San Jose, CA","$999,000",3,"1,442",2
+63,2381 Bentley Ridge Dr,"Evergreen, San Jose, CA","$2,388,000",4,"3,365",4
+64,1770 Arbor Dr,"Willow Glen, San Jose, CA","$1,099,000",3,"1,161",2
+65,2705 Gomes Dr,"Berryessa, San Jose, CA","$998,000",4,"1,444",2
+66,4138 Santa Susana Way,"Edenvale - Seven Trees, San Jose, CA","$699,000",3,900,1
+67,1716 Mendenhall Dr,"West San Jose, San Jose, CA","$1,098,000",4,"1,507",2
+68,629 S 22nd St,"Downtown, San Jose, CA","$949,000",4,"1,816",3
+69,6777 Muscat Dr,"Santa Teresa, San Jose, CA","$850,000",4,"1,308",2
+70,3514 El Grande Dr,"Berryessa, San Jose, CA","$1,199,000",3,"1,822",2
+71,6130 Franciscan Ct,"Almaden Valley, San Jose, CA","$1,350,000",5,"2,278",3
+72,6582 Crystal Springs Dr,"Almaden Valley, San Jose, CA","$2,475,000",4,"2,328",3
+73,106 Spyglass Hill Rd,"Berryessa, San Jose, CA","$780,000",3,"1,781",3
+74,6336 Mountford Dr,"Blossom Valley, San Jose, CA","$1,088,888",4,"1,475",2
+75,1441 Cottlestone Ct,"Evergreen, San Jose, CA","$1,999,999",5,"3,507",3
+76,5530 Chesbro Ave,"Blossom Valley, San Jose, CA","$969,000",3,"1,520",2
+77,1198 Kimberly Dr,"Cambrian Park, San Jose, CA","$1,250,000",3,"1,674",3
+78,1650 Fairorchard Ave,"Willow Glen, San Jose, CA","$1,525,000",4,"1,656",2
+79,2124 Alexian Dr,"North Valley, San Jose, CA","$535,000",3,"1,165",2
+80,3507 Jonathan Rachelle Ct,"Evergreen, San Jose, CA","$2,345,000",5,"4,065",5
+81,282 Challenger Ave,"Alum Rock-East Foothills, San Jose, CA","$799,999",4,"1,828",3
+82,236 Manley Ct,"Santa Teresa, San Jose, CA","$1,098,000",4,"2,298",3
+83,6544 Hercus Ct,"Santa Teresa, San Jose, CA","$1,250,000",4,"2,256",3
+84,241 Vineyard Dr,"Santa Teresa, San Jose, CA","$875,000",4,"1,308",2
+85,2514 Vista Verde Dr,"Evergreen, San Jose, CA","$1,038,000",4,"2,098",3
+86,4975 Roeder Rd,"Edenvale - Seven Trees, San Jose, CA","$760,000",3,960,1
+87,2005 Mary Helen Ln,"Fairgrounds, San Jose, CA","$998,000",3,"2,411",4
+88,2579 Sierra Rd,"Berryessa, San Jose, CA","$888,888",4,"1,393",2
+89,516 Almaden Walk Loop,"Willow Glen, San Jose, CA","$880,000",3,"1,425",3
