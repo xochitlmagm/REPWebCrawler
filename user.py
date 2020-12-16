@@ -22,21 +22,21 @@ def getparameters():
 
     # if they want a garage
     if garage == 0:
-        garage_yn = "y"
-    elif garage == 1:
         garage_yn = "n"
+    elif garage == 1:
+        garage_yn = "y"
 
     # if they want a backyard
     if backyard == 0:
-        backyard_yn = "y"
-    elif backyard == 1:
         backyard_yn = "n"
+    elif backyard == 1:
+        backyard_yn = "y"
 
     # if they want a basement
     if basement == 0:
-        basement_yn = "y"
-    elif baseopt.get() == 1:
         basement_yn = "n"
+    elif baseopt.get() == 1:
+        basement_yn = "y"
 
     citychoice = cities.get(cities.curselection())
     toppref = top_pref.get(top_pref.curselection())
@@ -52,6 +52,31 @@ def getparameters():
     print("city? " + citychoice)
     print("Which is most important? " + toppref)
     print("Second most important? " + secpref)
+
+
+# a method in which you get the value of the user's input
+def getvalues(para):
+    if para == "Bedrooms":
+        return int(numbed.get())
+    elif para == "Bathrooms":
+        return int(numbath.get())
+    elif para == "Sqr Foot":
+        return int(sq.get())
+    elif para == "Garage":
+        # if 0, no if 1, yes
+        return int(garopt.get())
+    elif para == "Backyard":
+        return int(backopt.get())
+    elif para == "Basement":
+        return int(baseopt.get())
+    elif para == "City":
+        return cities.get(cities.curselection())
+    elif para == "Top":
+        return top_pref.get(top_pref.curselection())
+    elif para == "Second":
+        return sec_pref.get(sec_pref.curselection())
+    else:
+        return print("No parameter of such name")
 
 
 ui = Tk(className="Finding Houses")
@@ -81,16 +106,16 @@ footagelabel = Label(ui, text="Sq Footage:").grid(row=4, column=0, padx=20)
 sqrfoot = Entry(ui, textvariable=sq, width=8).grid(row=4, column=1, sticky=W, padx=10)
 
 garagelabel = Label(ui, text="Garage?:").grid(row=5, column=0, padx=20)
-y1 = Radiobutton(ui, text="yes", variable=garopt, value=0).grid(row=5, column=1, sticky=W, padx=20)
-n1 = Radiobutton(ui, text="no", variable=garopt, value=1).grid(row=5, column=1, sticky=E, padx=20)
+y1 = Radiobutton(ui, text="yes", variable=garopt, value=1).grid(row=5, column=1, sticky=W, padx=20)
+n1 = Radiobutton(ui, text="no", variable=garopt, value=0).grid(row=5, column=1, sticky=E, padx=20)
 
 backyardlabel = Label(ui, text="Backyard?:").grid(row=6, column=0, padx=20)
-y2 = Radiobutton(ui, text="yes", variable=backopt, value=0).grid(row=6, column=1, sticky=W, padx=20)
-n2 = Radiobutton(ui, text="no", variable=backopt, value=1).grid(row=6, column=1, sticky=E, padx=20)
+y2 = Radiobutton(ui, text="yes", variable=backopt, value=1).grid(row=6, column=1, sticky=W, padx=20)
+n2 = Radiobutton(ui, text="no", variable=backopt, value=0).grid(row=6, column=1, sticky=E, padx=20)
 
 basementlabel = Label(ui, text="Basement?:").grid(row=7, column=0, padx=20)
-y3 = Radiobutton(ui, text="yes", variable=baseopt, value=0).grid(row=7, column=1, sticky=W, padx=20)
-n3 = Radiobutton(ui, text="no", variable=baseopt, value=1).grid(row=7, column=1, sticky=E, padx=20)
+y3 = Radiobutton(ui, text="yes", variable=baseopt, value=1).grid(row=7, column=1, sticky=W, padx=20)
+n3 = Radiobutton(ui, text="no", variable=baseopt, value=0).grid(row=7, column=1, sticky=E, padx=20)
 
 citylabel = Label(ui, text="City:").grid(row=8, column=0)
 cities = Listbox(ui, height=3, exportselection=0)
