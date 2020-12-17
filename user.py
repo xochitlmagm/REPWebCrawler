@@ -6,12 +6,25 @@ from tkinter import ttk
 from tkinter.ttk import *
 import ProcessInput
 
-# boise_houses = ProcessInput.read_house_list_from_file("trulia_Boise_ID.csv")
-tx_houses = ProcessInput.read_house_list_from_file("trulia_Midland_TX.csv")
+boise_houses = ProcessInput.read_house_list_from_file("trulia_Boise_ID.csv")
+midland_houses = ProcessInput.read_house_list_from_file("trulia_Midland_TX.csv")
 reno_houses = ProcessInput.read_house_list_from_file("trulia_Reno_NV.csv")
+
+def printHouseDetails(topHouses):
+    print(f"Address: {topHouses.address}")
+    print(f"{topHouses.city_state}")
+    print(f'Price: {topHouses.price}')
+    print(f"# Beds: {topHouses.num_beds}")
+    print(f"# Bath: {topHouses.num_baths}")
+    print(f"Square Footage: {topHouses.sq_footage} ")
+    print(f"Has garage? {topHouses.garage}")
+    print(f"Has backyard? {topHouses.backyard}")
+    print(f"Has basement? {topHouses.basement}")
+    print(f"")
 
 
 def getparameters():
+
     numbathrooms = int(numbath.get())  # getting the
     numbedrooms = int(numbed.get())
     sqfoot = int(sq.get())
@@ -47,16 +60,46 @@ def getparameters():
     toppref = top_pref.get(top_pref.curselection())
     secpref = sec_pref.get(sec_pref.curselection())
 
+    if citychoice == 'Boise, Idaho':
+        for home in boise_houses:
+            preference_object = ProcessInput.TestingPreferences(numbedrooms, numbathrooms, sqfoot, garage, backyard,
+                                                                basement, toppref, secpref);
+            home.score = home.home_value_score(preference_object)
+        boise_houses.sort(reverse=True, key=lambda x: x.score)
+        printHouseDetails(boise_houses[0])
+        printHouseDetails(boise_houses[1])
+        printHouseDetails(boise_houses[2])
+    elif citychoice == "Reno, Nevada":
+        for home in reno_houses:
+            preference_object = ProcessInput.TestingPreferences(numbedrooms, numbathrooms, sqfoot, garage_yn, backyard_yn,
+                                                                    basement_yn, toppref, secpref);
+            home.score = home.home_value_score(preference_object)
+        reno_houses.sort(reverse=True, key=lambda x: x.score)
+        printHouseDetails(reno_houses[0])
+        printHouseDetails(reno_houses[1])
+        printHouseDetails(reno_houses[2])
+    elif citychoice == "Midland, Texas":
+        for home in midland_houses:
+            preference_object = ProcessInput.TestingPreferences(numbedrooms, numbathrooms, sqfoot, garage_yn,
+                                                                backyard_yn,
+                                                                basement_yn, toppref, secpref);
+            home.score = home.home_value_score(preference_object)
+        midland_houses.sort(reverse=True, key=lambda x: x.score)
+        printHouseDetails(midland_houses[0])
+        printHouseDetails(midland_houses[1])
+        printHouseDetails(midland_houses[2])
+
+
     # testing that I get the correct values:
-    print("# bath: " + str(numbathrooms))
-    print("# beds: " + str(numbedrooms))
-    print("sqr foot: " + str(sqfoot))
-    print("garage? " + garage_yn)
-    print("backyard? " + backyard_yn)
-    print("basement? " + basement_yn)
-    print("city? " + citychoice)
-    print("Which is most important? " + toppref)
-    print("Second most important? " + secpref)
+    # print("# bath: " + str(numbathrooms))
+    # print("# beds: " + str(numbedrooms))
+    # print("sqr foot: " + str(sqfoot))
+    # print("garage? " + garage_yn)
+    # print("backyard? " + backyard_yn)
+    # print("basement? " + basement_yn)
+    # print("city? " + citychoice)
+    # print("Which is most important? " + toppref)
+    # print("Second most important? " + secpref)
 
 
 # a method in which you get the value of the user's input
@@ -158,4 +201,3 @@ sec_pref.grid(column=1, row=12, sticky=E)
 sec_pref.pack_slaves()
 
 ui.mainloop()
-

@@ -15,7 +15,6 @@ class HouseNode:
         self.score = 0.0
 
     def home_value_score(self, home_preferences):
-        # testing = TestingPreferences()
         testing = home_preferences
         running_score = 0
         # Bedroom Scoring
@@ -37,7 +36,7 @@ class HouseNode:
             running_score = running_score + .75
 
         # SqFoot Score
-        sqfoot_scoring = - (self.sq_footage - testing.sq_footage)
+        sqfoot_scoring = - (self.sq_footage - int(testing.sq_foot))
         if sqfoot_scoring == 0:
             running_score = running_score + 1
         elif sqfoot_scoring > 500:
@@ -79,12 +78,23 @@ def read_house_list_from_file(filename):
         price = h[3]
         num_beds = h[4]
         num_baths = h[6]
-        sq_footage = h[5]
+        sq_int = int(h[5].replace(',', ''))
+        sq_footage = sq_int
         garage = h[7]
         backyard = h[8]
         basement = h[9]
-        houses_list.append(HouseNode(address, city_state, price, num_beds, num_baths, sq_footage, garage, backyard, basement))
+        houses_list.append(
+            HouseNode(address, city_state, price, num_beds, num_baths, sq_footage, garage, backyard, basement))
     return houses_list
 
 
-
+class TestingPreferences:
+    def __init__(self, num_beds, num_baths, sq_footage, backyard, garage, basement, pref1, pref2):
+        self.num_beds = num_beds
+        self.num_baths = num_baths
+        self.sq_foot = sq_footage
+        self.backyard = backyard
+        self.garage = garage
+        self.basement = basement
+        self.highestPreference = pref1
+        self.secondHighestPreference = pref2
