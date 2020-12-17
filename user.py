@@ -11,16 +11,9 @@ midland_houses = ProcessInput.read_house_list_from_file("trulia_Midland_TX.csv")
 reno_houses = ProcessInput.read_house_list_from_file("trulia_Reno_NV.csv")
 
 def printHouseDetails(topHouses):
-    print(f"Address: {topHouses.address}")
-    print(f"{topHouses.city_state}")
-    print(f'Price: {topHouses.price}')
-    print(f"# Beds: {topHouses.num_beds}")
-    print(f"# Bath: {topHouses.num_baths}")
-    print(f"Square Footage: {topHouses.sq_footage} ")
-    print(f"Has garage? {topHouses.garage}")
-    print(f"Has backyard? {topHouses.backyard}")
-    print(f"Has basement? {topHouses.basement}")
-    print(f"")
+    return str(f"Address: {topHouses.address}\n" + f"{topHouses.city_state}\n" + f'Price: {topHouses.price}\n' + f"# Beds: {topHouses.num_beds}\n" 
+    + f"# Bath: {topHouses.num_baths}\n" + f"Square Footage: {topHouses.sq_footage}\n" + f"Has garage? {topHouses.garage}\n"+ f"Has backyard? {topHouses.backyard}\n"
+    + f"Has basement? {topHouses.basement}\n"+ f"\n")
 
 
 def getparameters():
@@ -66,18 +59,18 @@ def getparameters():
                                                                 basement, toppref, secpref);
             home.score = home.home_value_score(preference_object)
         boise_houses.sort(reverse=True, key=lambda x: x.score)
-        printHouseDetails(boise_houses[0])
-        printHouseDetails(boise_houses[1])
-        printHouseDetails(boise_houses[2])
+        return str(f"{printHouseDetails(boise_houses[0])}"+
+        f"{printHouseDetails(boise_houses[1])}"+
+        f"{printHouseDetails(boise_houses[2])}")
     elif citychoice == "Reno, Nevada":
         for home in reno_houses:
             preference_object = ProcessInput.TestingPreferences(numbedrooms, numbathrooms, sqfoot, garage_yn, backyard_yn,
                                                                     basement_yn, toppref, secpref);
             home.score = home.home_value_score(preference_object)
         reno_houses.sort(reverse=True, key=lambda x: x.score)
-        printHouseDetails(reno_houses[0])
-        printHouseDetails(reno_houses[1])
-        printHouseDetails(reno_houses[2])
+        return str(f"{printHouseDetails(reno_houses[0])}"+
+        f"{printHouseDetails(reno_houses[1])}"+
+        f"{printHouseDetails(reno_houses[2])}")
     elif citychoice == "Midland, Texas":
         for home in midland_houses:
             preference_object = ProcessInput.TestingPreferences(numbedrooms, numbathrooms, sqfoot, garage_yn,
@@ -86,8 +79,9 @@ def getparameters():
             home.score = home.home_value_score(preference_object)
         midland_houses.sort(reverse=True, key=lambda x: x.score)
         printHouseDetails(midland_houses[0])
-        printHouseDetails(midland_houses[1])
-        printHouseDetails(midland_houses[2])
+        return str(f"{printHouseDetails(midland_houses[0])}"+
+        f"{printHouseDetails(midland_houses[1])}"+
+        f"{printHouseDetails(midland_houses[2])}")
 
 
     # testing that I get the correct values:
@@ -126,9 +120,16 @@ def getvalues(para):
     else:
         return print("No parameter of such name")
 
+def updatewindow():
+    ui.geometry("700x700")
+    # scroll = Scrollbar(ui)
+    expandedwindow = Frame(ui).grid(column=5, row=1)
+    hello = Label(expandedwindow, text="Results").grid(column=5, row=2, padx=50)
+
+    results = Message(expandedwindow, text=getparameters()).grid(column=5, row=3, padx=50, columnspan=2, rowspan=20)
 
 ui = Tk(className="Finding Houses")
-ui.geometry("325x500")  # no problem with this one
+ui.geometry("325x550")  # no problem with this one
 
 # variables for each entry
 numbath = StringVar()
@@ -172,7 +173,7 @@ cities.insert(3, "Midland, Texas")
 cities.grid(column=1, row=8)
 cities.pack_slaves()
 # button to run the program
-find = Button(ui, text='Results', width=5, command=getparameters).grid(column=0, row=13, sticky=S, padx=20, pady=30,
+find = Button(ui, text='Results', width=5, command=updatewindow).grid(column=0, row=13, sticky=S, padx=20, pady=55,
                                                                        columnspan=2)
 
 # choosing top preferences
@@ -201,3 +202,4 @@ sec_pref.grid(column=1, row=12, sticky=E)
 sec_pref.pack_slaves()
 
 ui.mainloop()
+
