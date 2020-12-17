@@ -1,0 +1,91 @@
+Index,Address,"Town, State",Price,Beds,Sqft,Baths,garage,backyard,basement
+0,2324 W Palouse St,"Vista, Boise, ID","$549,900 ",5,"2,652",3,TRUE,FALSE,FALSE
+1,1735 S Ash Park Ln,"Pioneer, Boise, ID","$399,900 ",5,"1,652",2,TRUE,TRUE,FALSE
+2,468 N Lilly Dr,"Boise, ID","$112,900 ",4,"1,492",2,TRUE,TRUE,TRUE
+3,1912 N 11th St,"North End, Boise, ID","$559,900 ",3,"1,588",2,FALSE,TRUE,FALSE
+4,7238 W Mojave Dr,"Boise, ID","$299,999 ",3,"1,408",2,TRUE,FALSE,TRUE
+5,209 N Owyhee St,"Depot Bench, Boise, ID","$419,900 ",3,"2,227",2,TRUE,TRUE,FALSE
+6,12298 W Murchison St,"Boise, ID","$524,900 ",5,"3,030",2.5,TRUE,TRUE,FALSE
+7,2810 W BRENEMAN ST,"Sunset, Boise, ID","$582,000 ",3,"2,252",3,TRUE,TRUE,FALSE
+8,10618 W Pattie St,"West Valley, Boise, ID","$349,900 ",3,"1,724",2,TRUE,TRUE,FALSE
+9,2633 N Bird St,"West Bench, Boise, ID","$379,900 ",3,"1,611",2,TRUE,TRUE,FALSE
+10,3374 S Canonero Way,"Boise, ID","$560,000 ",4,"3,458",3.5,TRUE,TRUE,FALSE
+11,11035 W Tidewater Ct,"West Valley, Boise, ID","$340,000 ",3,"1,504",2,TRUE,FALSE,FALSE
+12,1203 S Michigan Ave,"Southeast Boise, Boise, ID","$324,000 ",3,"1,260",1.5,TRUE,FALSE,FALSE
+13,12078 W Honey Dew Dr,"Boise, ID","$425,000 ",4,"2,135",2.5,TRUE,TRUE,FALSE
+14,466 N Lilly Dr,"Boise, ID","$110,900 ",3,"1,492",2,TRUE,TRUE,FALSE
+15,1019 N Lander St,"Veterans Park, Boise, ID","$239,900 ",2,904,1,TRUE,TRUE,FALSE
+16,11142 W Goldenspire Dr,"Boise, ID","$399,900 ",3,"2,086",3,TRUE,TRUE,FALSE
+17,421 S Curtis Rd #15,"Borah, Boise, ID","$169,900 ",2,"1,222",2,TRUE,TRUE,FALSE
+18,328 N Coston St,"East End, Boise, ID","$1,100,000 ",3,"2,800",4,TRUE,TRUE,FALSE
+19,4402 N Ute Pl,"West Valley, Boise, ID","$499,900 ",4,"2,219",2,TRUE,TRUE,FALSE
+20,Century Farm,"Meridian, ID","$338,800 ",4,"2,030",3,TRUE,FALSE,FALSE
+21,395 E Sydmor Dr,"Southeast Boise, Boise, ID","$650,000 ",3,"2,312",3,TRUE,TRUE,FALSE
+22,3237 N Rugby Way,"West Bench, Boise, ID","$259,999 ",2,"1,112",2,TRUE,TRUE,TRUE
+23,5270 S Five Mile Rd,"Boise, ID","$699,000 ",4,"2,709",3,FALSE,TRUE,FALSE
+24,9087 W Songwood Dr,"Boise, ID","$359,990 ",3,"2,028",2.5,TRUE,FALSE,TRUE
+25,945 E Warm Springs Ave,"East End, Boise, ID","$1,980,000 ",5,"6,871",4,TRUE,TRUE,FALSE
+26,9334 W Jewell St,"Boise, ID","$279,900 ",2,"1,040",1,TRUE,TRUE,FALSE
+27,2015 W Sunrise Rim Rd,"Sunrise Rim, Boise, ID","$425,000 ",3,"2,998",2,TRUE,TRUE,FALSE
+28,6323 N Talcrest Pl,"Boise, ID",$1 ,3,"1,600",2,TRUE,TRUE,FALSE
+29,2919 W Parke Circle Dr,"Depot Bench, Boise, ID","$639,900 ",3,"2,004",3,TRUE,TRUE,FALSE
+30,2324 W Palouse St,"Vista, Boise, ID","$549,900 ",5,"2,652",3,TRUE,TRUE,FALSE
+31,1735 S Ash Park Ln,"Pioneer, Boise, ID","$399,900 ",5,"1,652",2,TRUE,FALSE,FALSE
+32,468 N Lilly Dr,"Boise, ID","$112,900 ",4,"1,492",2,TRUE,FALSE,FALSE
+33,1912 N 11th St,"North End, Boise, ID","$559,900 ",3,"1,588",2,TRUE,TRUE,FALSE
+34,7238 W Mojave Dr,"Boise, ID","$299,999 ",3,"1,408",2,TRUE,TRUE,FALSE
+35,209 N Owyhee St,"Depot Bench, Boise, ID","$419,900 ",3,"2,227",2,TRUE,TRUE,FALSE
+36,12298 W Murchison St,"Boise, ID","$524,900 ",5,"3,030",2.5,TRUE,TRUE,FALSE
+37,2810 W BRENEMAN ST,"Sunset, Boise, ID","$582,000 ",3,"2,252",3,TRUE,TRUE,FALSE
+38,10618 W Pattie St,"West Valley, Boise, ID","$349,900 ",3,"1,724",2,TRUE,TRUE,FALSE
+39,2633 N Bird St,"West Bench, Boise, ID","$379,900 ",3,"1,611",2,TRUE,TRUE,FALSE
+40,3374 S Canonero Way,"Boise, ID","$560,000 ",4,"3,458",3.5,TRUE,FALSE,FALSE
+41,11035 W Tidewater Ct,"West Valley, Boise, ID","$340,000 ",3,"1,504",2,TRUE,TRUE,FALSE
+42,1203 S Michigan Ave,"Southeast Boise, Boise, ID","$324,000 ",3,"1,260",1.5,TRUE,TRUE,TRUE
+43,12078 W Honey Dew Dr,"Boise, ID","$425,000 ",4,"2,135",2.5,FALSE,TRUE,FALSE
+44,466 N Lilly Dr,"Boise, ID","$110,900 ",3,"1,492",2,TRUE,FALSE,TRUE
+45,1019 N Lander St,"Veterans Park, Boise, ID","$239,900 ",2,904,1,TRUE,TRUE,FALSE
+46,11142 W Goldenspire Dr,"Boise, ID","$399,900 ",3,"2,086",3,TRUE,TRUE,FALSE
+47,421 S Curtis Rd #15,"Borah, Boise, ID","$169,900 ",2,"1,222",2,TRUE,TRUE,FALSE
+48,328 N Coston St,"East End, Boise, ID","$1,100,000 ",3,"2,800",4,TRUE,TRUE,FALSE
+49,4402 N Ute Pl,"West Valley, Boise, ID","$499,900 ",4,"2,219",2,TRUE,TRUE,FALSE
+50,Century Farm,"Meridian, ID","$338,800 ",4,"2,030",3,TRUE,TRUE,FALSE
+51,395 E Sydmor Dr,"Southeast Boise, Boise, ID","$650,000 ",3,"2,312",3,TRUE,FALSE,FALSE
+52,3237 N Rugby Way,"West Bench, Boise, ID","$259,999 ",2,"1,112",2,TRUE,FALSE,FALSE
+53,5270 S Five Mile Rd,"Boise, ID","$699,000 ",4,"2,709",3,TRUE,TRUE,FALSE
+54,9087 W Songwood Dr,"Boise, ID","$359,990 ",3,"2,028",2.5,TRUE,TRUE,FALSE
+55,945 E Warm Springs Ave,"East End, Boise, ID","$1,980,000 ",5,"6,871",4,TRUE,TRUE,FALSE
+56,9334 W Jewell St,"Boise, ID","$279,900 ",2,"1,040",1,TRUE,TRUE,FALSE
+57,2015 W Sunrise Rim Rd,"Sunrise Rim, Boise, ID","$425,000 ",3,"2,998",2,TRUE,TRUE,FALSE
+58,6323 N Talcrest Pl,"Boise, ID",$1 ,3,"1,600",2,TRUE,TRUE,FALSE
+59,2919 W Parke Circle Dr,"Depot Bench, Boise, ID","$639,900 ",3,"2,004",3,TRUE,TRUE,FALSE
+60,2324 W Palouse St,"Vista, Boise, ID","$549,900 ",5,"2,652",3,TRUE,FALSE,FALSE
+61,1735 S Ash Park Ln,"Pioneer, Boise, ID","$399,900 ",5,"1,652",2,TRUE,TRUE,FALSE
+62,468 N Lilly Dr,"Boise, ID","$112,900 ",4,"1,492",2,TRUE,TRUE,TRUE
+63,1912 N 11th St,"North End, Boise, ID","$559,900 ",3,"1,588",2,FALSE,TRUE,FALSE
+64,7238 W Mojave Dr,"Boise, ID","$299,999 ",3,"1,408",2,TRUE,FALSE,TRUE
+65,209 N Owyhee St,"Depot Bench, Boise, ID","$419,900 ",3,"2,227",2,TRUE,TRUE,FALSE
+66,12298 W Murchison St,"Boise, ID","$524,900 ",5,"3,030",2.5,TRUE,TRUE,FALSE
+67,2810 W BRENEMAN ST,"Sunset, Boise, ID","$582,000 ",3,"2,252",3,TRUE,TRUE,FALSE
+68,10618 W Pattie St,"West Valley, Boise, ID","$349,900 ",3,"1,724",2,TRUE,TRUE,FALSE
+69,2633 N Bird St,"West Bench, Boise, ID","$379,900 ",3,"1,611",2,TRUE,TRUE,FALSE
+70,3374 S Canonero Way,"Boise, ID","$560,000 ",4,"3,458",3.5,TRUE,TRUE,FALSE
+71,11035 W Tidewater Ct,"West Valley, Boise, ID","$340,000 ",3,"1,504",2,TRUE,FALSE,FALSE
+72,1203 S Michigan Ave,"Southeast Boise, Boise, ID","$324,000 ",3,"1,260",1.5,TRUE,FALSE,FALSE
+73,12078 W Honey Dew Dr,"Boise, ID","$425,000 ",4,"2,135",2.5,TRUE,TRUE,FALSE
+74,466 N Lilly Dr,"Boise, ID","$110,900 ",3,"1,492",2,TRUE,TRUE,FALSE
+75,1019 N Lander St,"Veterans Park, Boise, ID","$239,900 ",2,904,1,TRUE,TRUE,FALSE
+76,11142 W Goldenspire Dr,"Boise, ID","$399,900 ",3,"2,086",3,TRUE,TRUE,FALSE
+77,421 S Curtis Rd #15,"Borah, Boise, ID","$169,900 ",2,"1,222",2,TRUE,TRUE,FALSE
+78,328 N Coston St,"East End, Boise, ID","$1,100,000 ",3,"2,800",4,TRUE,TRUE,FALSE
+79,4402 N Ute Pl,"West Valley, Boise, ID","$499,900 ",4,"2,219",2,TRUE,TRUE,FALSE
+80,Century Farm,"Meridian, ID","$338,800 ",4,"2,030",3,TRUE,FALSE,FALSE
+81,395 E Sydmor Dr,"Southeast Boise, Boise, ID","$650,000 ",3,"2,312",3,TRUE,TRUE,FALSE
+82,3237 N Rugby Way,"West Bench, Boise, ID","$259,999 ",2,"1,112",2,TRUE,TRUE,TRUE
+83,5270 S Five Mile Rd,"Boise, ID","$699,000 ",4,"2,709",3,FALSE,TRUE,FALSE
+84,9087 W Songwood Dr,"Boise, ID","$359,990 ",3,"2,028",2.5,TRUE,TRUE,TRUE
+85,945 E Warm Springs Ave,"East End, Boise, ID","$1,980,000 ",5,"6,871",4,TRUE,TRUE,FALSE
+86,9334 W Jewell St,"Boise, ID","$279,900 ",2,"1,040",1,TRUE,TRUE,FALSE
+87,2015 W Sunrise Rim Rd,"Sunrise Rim, Boise, ID","$425,000 ",3,"2,998",2,TRUE,TRUE,FALSE
+88,6323 N Talcrest Pl,"Boise, ID",$1 ,3,"1,600",2,TRUE,TRUE,FALSE
+89,2919 W Parke Circle Dr,"Depot Bench, Boise, ID","$639,900 ",3,"2,004",3,TRUE,TRUE,FALSE

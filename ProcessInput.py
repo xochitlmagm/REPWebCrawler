@@ -1,17 +1,14 @@
 import pandas
-import UserInterface
 
 
 class HouseNode:
-    def __init__(self, address, city, state, price, num_beds, num_baths, sq_footage, lot, backyard, garage, basement):
+    def __init__(self, address, city_state, price, num_beds, num_baths, sq_footage, backyard, garage, basement):
         self.address = address
-        self.city = city
-        self.state = state
+        self.city_state = city_state
         self.price = price
         self.num_beds = num_beds
         self.num_baths = num_baths
         self.sq_footage = sq_footage
-        self.lot = lot
         self.backyard = backyard
         self.garage = garage
         self.basement = basement
@@ -66,33 +63,27 @@ class HouseNode:
         else:
             running_score = running_score + .3
 
-        # TODO Replace with value function, then update self.score with it.
-
         running_normalized = running_score / 6
         self.score = running_normalized
         return running_normalized
 
 
-def read_from_file_pandas():
-    houses_read = pandas.read_csv('houses.csv')
+def read_house_list_from_file(filename):
+    houses_read = pandas.read_csv(filename)
     houses_read = houses_read.sort_values('Price')
     houses_processing_list = houses_read.values.tolist()
     houses_list = []
     for h in houses_processing_list:
         address = h[1]
-        city = h[2]
-        state = h[3]
-        price = h[4]
-        num_beds = h[5]
+        city_state = h[2]
+        price = h[3]
+        num_beds = h[4]
         num_baths = h[6]
-        sq_footage = h[7]
-        year_built = h[9]
-        garage = h[10]
-        backyard = h[11]
-        basement = h[12]
-        houses_list.append(HouseNode(address, city, state, price, num_beds, num_baths, sq_footage, year_built, garage,
-                                     backyard, basement))
-
+        sq_footage = h[5]
+        garage = h[7]
+        backyard = h[8]
+        basement = h[9]
+        houses_list.append(HouseNode(address, city_state, price, num_beds, num_baths, sq_footage, garage, backyard, basement))
     return houses_list
 
 

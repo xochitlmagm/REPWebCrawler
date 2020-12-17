@@ -1,0 +1,91 @@
+,Address,"Town, State",Price,Beds,Sqft,Baths,Garage,Backyard,Basement
+0,1005 Joy Lake Rd,"Reno, NV","$1,195,000 ",3,"3,520",3,TRUE,FALSE,FALSE
+1,2495 Spring Flower Dr,"South Reno, Reno, NV","$465,000 ",3,"1,697",2,TRUE,TRUE,FALSE
+2,1375 Softwood Cir,"North Valleys, Reno, NV","$225,000 ",3,"1,455",2,TRUE,TRUE,TRUE
+3,2 Gamay Ln,"Northeast, Reno, NV","$189,900 ",2,"1,344",2,FALSE,TRUE,FALSE
+4,522 Roberts St,"East Reno, Reno, NV","$175,000 ",3,"1,741",2,TRUE,FALSE,TRUE
+5,7265 Wallsend Dr,"South Reno, Reno, NV","$400,000 ",5,"2,110",3,TRUE,TRUE,FALSE
+6,600 Putnam Dr,"Old Northwest - West University, Reno, NV","$395,000 ",3,"1,528",2,TRUE,TRUE,FALSE
+7,2070 Bayview Dr,"East Reno, Reno, NV","$599,000 ",4,"2,902",4,TRUE,TRUE,FALSE
+8,1045 Beldon Way,"Old Northwest - West University, Reno, NV","$334,900 ",3,988,2,TRUE,TRUE,FALSE
+9,5650 Ventana Pkwy,"Reno, NV","$1,349,900 ",4,"3,647",4,TRUE,TRUE,FALSE
+10,1578 Gemtown Ct,"South Reno, Reno, NV","$678,000 ",5,"3,145",3,TRUE,TRUE,FALSE
+11,8902 Dixon Ln,"South Central, Reno, NV","$360,000 ",3,"1,418",2,TRUE,FALSE,FALSE
+12,3710 Coastal St,"Northeast, Reno, NV","$520,000 ",4,"2,431",3,TRUE,FALSE,FALSE
+13,1675 Hunter Lake Dr,"Southwest, Reno, NV","$488,000 ",3,"1,416",2,TRUE,TRUE,FALSE
+14,2075 S Marsh Ave,"Southwest, Reno, NV","$760,000 ",3,"2,142",2,TRUE,TRUE,FALSE
+15,150 Piney Creek Rd,"Reno, NV","$1,100,000 ",5,"4,561",5,TRUE,TRUE,FALSE
+16,9470 Baldacci Rd,"East Reno, Reno, NV","$624,900 ",3,"2,369",3,TRUE,TRUE,FALSE
+17,13021 Exinite Dr,"North Valleys, Reno, NV","$295,000 ",3,"1,008",2,TRUE,TRUE,FALSE
+18,540 Kess Way,"Lemmon Valley, Reno, NV","$299,950 ",3,"1,296",2,TRUE,TRUE,FALSE
+19,9644 Rolling Rock Way,"South Reno, Reno, NV","$474,900 ",3,"1,923",2,TRUE,TRUE,FALSE
+20,10085 Eagles Landing Ct,"South Reno, Reno, NV","$429,000 ",3,"1,362",2,TRUE,FALSE,FALSE
+21,9050 Rising Sun Dr,"North Valleys, Reno, NV","$325,000 ",4,"2,475",3,TRUE,TRUE,FALSE
+22,1923 E Minaret Cir,"Northwest, Reno, NV","$285,000 ",3,"1,048",2,TRUE,TRUE,TRUE
+23,3065 Bonfire Ln,"South Reno, Reno, NV","$725,000 ",4,"2,724",3,FALSE,TRUE,FALSE
+24,1407 Doric Dr,"Old Northwest - West University, Reno, NV","$395,000 ",3,"1,669",3,TRUE,FALSE,TRUE
+25,311 Cheney St,"East Reno, Reno, NV","$475,000 ",2,962,1,TRUE,TRUE,FALSE
+26,2746 Caballo Dr,"East Reno, Reno, NV","$325,000 ",2,"1,044",2,TRUE,TRUE,FALSE
+27,550 Ferol Way,"Old Northwest - West University, Reno, NV","$359,900 ",3,"1,336",2,TRUE,TRUE,FALSE
+28,1576 Reno View Dr,"Southwest, Reno, NV","$439,000 ",4,"1,706",3,TRUE,TRUE,FALSE
+29,10318 Bronze Wood Ct,"South Reno, Reno, NV","$479,900 ",3,"1,884",2,TRUE,TRUE,FALSE
+30,1005 Joy Lake Rd,"Reno, NV","$1,195,000 ",3,"3,520",3,TRUE,TRUE,FALSE
+31,2495 Spring Flower Dr,"South Reno, Reno, NV","$465,000 ",3,"1,697",2,TRUE,FALSE,FALSE
+32,1375 Softwood Cir,"North Valleys, Reno, NV","$225,000 ",3,"1,455",2,TRUE,FALSE,FALSE
+33,2 Gamay Ln,"Northeast, Reno, NV","$189,900 ",2,"1,344",2,TRUE,TRUE,FALSE
+34,522 Roberts St,"East Reno, Reno, NV","$175,000 ",3,"1,741",2,TRUE,TRUE,FALSE
+35,7265 Wallsend Dr,"South Reno, Reno, NV","$400,000 ",5,"2,110",3,TRUE,TRUE,FALSE
+36,600 Putnam Dr,"Old Northwest - West University, Reno, NV","$395,000 ",3,"1,528",2,TRUE,TRUE,FALSE
+37,2070 Bayview Dr,"East Reno, Reno, NV","$599,000 ",4,"2,902",4,TRUE,TRUE,FALSE
+38,1045 Beldon Way,"Old Northwest - West University, Reno, NV","$334,900 ",3,988,2,TRUE,TRUE,FALSE
+39,5650 Ventana Pkwy,"Reno, NV","$1,349,900 ",4,"3,647",4,TRUE,TRUE,FALSE
+40,1578 Gemtown Ct,"South Reno, Reno, NV","$678,000 ",5,"3,145",3,TRUE,FALSE,FALSE
+41,8902 Dixon Ln,"South Central, Reno, NV","$360,000 ",3,"1,418",2,TRUE,TRUE,FALSE
+42,3710 Coastal St,"Northeast, Reno, NV","$520,000 ",4,"2,431",3,TRUE,TRUE,TRUE
+43,1675 Hunter Lake Dr,"Southwest, Reno, NV","$488,000 ",3,"1,416",2,FALSE,TRUE,FALSE
+44,2075 S Marsh Ave,"Southwest, Reno, NV","$760,000 ",3,"2,142",2,TRUE,FALSE,TRUE
+45,150 Piney Creek Rd,"Reno, NV","$1,100,000 ",5,"4,561",5,TRUE,TRUE,FALSE
+46,9470 Baldacci Rd,"East Reno, Reno, NV","$624,900 ",3,"2,369",3,TRUE,TRUE,FALSE
+47,13021 Exinite Dr,"North Valleys, Reno, NV","$295,000 ",3,"1,008",2,TRUE,TRUE,FALSE
+48,540 Kess Way,"Lemmon Valley, Reno, NV","$299,950 ",3,"1,296",2,TRUE,TRUE,FALSE
+49,9644 Rolling Rock Way,"South Reno, Reno, NV","$474,900 ",3,"1,923",2,TRUE,TRUE,FALSE
+50,10085 Eagles Landing Ct,"South Reno, Reno, NV","$429,000 ",3,"1,362",2,TRUE,TRUE,FALSE
+51,9050 Rising Sun Dr,"North Valleys, Reno, NV","$325,000 ",4,"2,475",3,TRUE,FALSE,FALSE
+52,1923 E Minaret Cir,"Northwest, Reno, NV","$285,000 ",3,"1,048",2,TRUE,FALSE,FALSE
+53,3065 Bonfire Ln,"South Reno, Reno, NV","$725,000 ",4,"2,724",3,TRUE,TRUE,FALSE
+54,1407 Doric Dr,"Old Northwest - West University, Reno, NV","$395,000 ",3,"1,669",3,TRUE,TRUE,FALSE
+55,311 Cheney St,"East Reno, Reno, NV","$475,000 ",2,962,1,TRUE,TRUE,FALSE
+56,2746 Caballo Dr,"East Reno, Reno, NV","$325,000 ",2,"1,044",2,TRUE,TRUE,FALSE
+57,550 Ferol Way,"Old Northwest - West University, Reno, NV","$359,900 ",3,"1,336",2,TRUE,TRUE,FALSE
+58,1576 Reno View Dr,"Southwest, Reno, NV","$439,000 ",4,"1,706",3,TRUE,TRUE,FALSE
+59,10318 Bronze Wood Ct,"South Reno, Reno, NV","$479,900 ",3,"1,884",2,TRUE,TRUE,FALSE
+60,1005 Joy Lake Rd,"Reno, NV","$1,195,000 ",3,"3,520",3,TRUE,FALSE,FALSE
+61,2495 Spring Flower Dr,"South Reno, Reno, NV","$465,000 ",3,"1,697",2,TRUE,TRUE,FALSE
+62,1375 Softwood Cir,"North Valleys, Reno, NV","$225,000 ",3,"1,455",2,TRUE,TRUE,TRUE
+63,2 Gamay Ln,"Northeast, Reno, NV","$189,900 ",2,"1,344",2,FALSE,TRUE,FALSE
+64,522 Roberts St,"East Reno, Reno, NV","$175,000 ",3,"1,741",2,TRUE,FALSE,TRUE
+65,7265 Wallsend Dr,"South Reno, Reno, NV","$400,000 ",5,"2,110",3,TRUE,TRUE,FALSE
+66,600 Putnam Dr,"Old Northwest - West University, Reno, NV","$395,000 ",3,"1,528",2,TRUE,TRUE,FALSE
+67,2070 Bayview Dr,"East Reno, Reno, NV","$599,000 ",4,"2,902",4,TRUE,TRUE,FALSE
+68,1045 Beldon Way,"Old Northwest - West University, Reno, NV","$334,900 ",3,988,2,TRUE,TRUE,FALSE
+69,5650 Ventana Pkwy,"Reno, NV","$1,349,900 ",4,"3,647",4,TRUE,TRUE,FALSE
+70,1578 Gemtown Ct,"South Reno, Reno, NV","$678,000 ",5,"3,145",3,TRUE,TRUE,FALSE
+71,8902 Dixon Ln,"South Central, Reno, NV","$360,000 ",3,"1,418",2,TRUE,FALSE,FALSE
+72,3710 Coastal St,"Northeast, Reno, NV","$520,000 ",4,"2,431",3,TRUE,FALSE,FALSE
+73,1675 Hunter Lake Dr,"Southwest, Reno, NV","$488,000 ",3,"1,416",2,TRUE,TRUE,FALSE
+74,2075 S Marsh Ave,"Southwest, Reno, NV","$760,000 ",3,"2,142",2,TRUE,TRUE,FALSE
+75,150 Piney Creek Rd,"Reno, NV","$1,100,000 ",5,"4,561",5,TRUE,TRUE,FALSE
+76,9470 Baldacci Rd,"East Reno, Reno, NV","$624,900 ",3,"2,369",3,TRUE,TRUE,FALSE
+77,13021 Exinite Dr,"North Valleys, Reno, NV","$295,000 ",3,"1,008",2,TRUE,TRUE,FALSE
+78,540 Kess Way,"Lemmon Valley, Reno, NV","$299,950 ",3,"1,296",2,TRUE,TRUE,FALSE
+79,9644 Rolling Rock Way,"South Reno, Reno, NV","$474,900 ",3,"1,923",2,TRUE,TRUE,FALSE
+80,10085 Eagles Landing Ct,"South Reno, Reno, NV","$429,000 ",3,"1,362",2,TRUE,FALSE,FALSE
+81,9050 Rising Sun Dr,"North Valleys, Reno, NV","$325,000 ",4,"2,475",3,TRUE,TRUE,FALSE
+82,1923 E Minaret Cir,"Northwest, Reno, NV","$285,000 ",3,"1,048",2,TRUE,TRUE,TRUE
+83,3065 Bonfire Ln,"South Reno, Reno, NV","$725,000 ",4,"2,724",3,FALSE,TRUE,FALSE
+84,1407 Doric Dr,"Old Northwest - West University, Reno, NV","$395,000 ",3,"1,669",3,TRUE,TRUE,TRUE
+85,311 Cheney St,"East Reno, Reno, NV","$475,000 ",2,962,1,TRUE,TRUE,FALSE
+86,2746 Caballo Dr,"East Reno, Reno, NV","$325,000 ",2,"1,044",2,TRUE,TRUE,FALSE
+87,550 Ferol Way,"Old Northwest - West University, Reno, NV","$359,900 ",3,"1,336",2,TRUE,TRUE,FALSE
+88,1576 Reno View Dr,"Southwest, Reno, NV","$439,000 ",4,"1,706",3,TRUE,TRUE,FALSE
+89,10318 Bronze Wood Ct,"South Reno, Reno, NV","$479,900 ",3,"1,884",2,TRUE,TRUE,FALSE
