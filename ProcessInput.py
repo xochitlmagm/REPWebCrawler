@@ -15,54 +15,97 @@ class HouseNode:
         self.score = 0.0
 
     def home_value_score(self, home_preferences):
-        testing = home_preferences
+        preferences = home_preferences
         running_score = 0
         # Bedroom Scoring
-        bedroom_scoring = - (self.num_beds - testing.num_beds)
+
+        bedroom_scoring = - (self.num_beds - preferences.num_beds)
+        bedroom_score = 0
         if bedroom_scoring == 0:
-            running_score = running_score + 1
+            bedroom_score = 1
         elif bedroom_scoring > 1:
-            running_score = running_score + .5
+            bedroom_score = .75
         elif bedroom_scoring < 1:
-            running_score = running_score + .75
+            bedroom_score = .5
+
+        if preferences.highestPreference == 'Bedrooms':
+            bedroom_score = 3 * bedroom_score
+        elif preferences.secondHighestPreference == 'Bedrooms':
+            bedroom_score = 2 * bedroom_score
+        running_score = running_score + bedroom_score
 
         # Bathroom Scoring
-        bathroom_scoring = - (self.num_baths - testing.num_baths)
+        bathroom_scoring = - (self.num_baths - preferences.num_baths)
+        bathroom_score = 0
         if bathroom_scoring == 0:
-            running_score = running_score + 1
+            bathroom_score = 1
         elif bathroom_scoring > 1:
-            running_score = running_score + .5
+            bathroom_score = .75
         elif bathroom_scoring < 1:
-            running_score = running_score + .75
+            bathroom_score = .5
+
+        if preferences.highestPreference == 'Bathrooms':
+            bathroom_score = 3 * bathroom_score
+        elif preferences.secondHighestPreference == 'Bathrooms':
+            bathroom_score = 2 * bathroom_score
+        running_score = running_score + bathroom_score
 
         # SqFoot Score
-        sqfoot_scoring = - (self.sq_footage - int(testing.sq_foot))
+        sqfoot_scoring = - (self.sq_footage - int(preferences.sq_foot))
+        sqfoot_score = 0;
         if sqfoot_scoring == 0:
-            running_score = running_score + 1
+            sqfoot_score = 1
         elif sqfoot_scoring > 500:
-            running_score = running_score + .8
+            sqfoot_score = .8
         elif sqfoot_scoring > 1000:
-            running_score = running_score + .75
+            sqfoot_score = .75
+
+        if preferences.highestPreference == 'Sq Footage':
+            sqfoot_score = 3 * sqfoot_score
+        elif preferences.secondHighestPreference == 'Sq Footage':
+            sqfoot_score = 2 * sqfoot_score
+        running_score = running_score + sqfoot_score
 
         # Basement
-        if self.basement == testing.basement:
-            running_score = running_score + 1
+        basement_score = 0
+        if self.basement == preferences.basement:
+            basement_score = 1
         else:
-            running_score = running_score + .3
+            basement_score = .5
+
+        if preferences.highestPreference == 'Basement':
+            basement_score = 3 * basement_score
+        elif preferences.secondHighestPreference == 'Basement':
+            basement_score = 2 * basement_score
+        running_score = running_score + basement_score
 
         # Garage
-        if self.garage == testing.garage:
-            running_score = running_score + 1
+        garage_score = 0
+        if self.garage == preferences.garage:
+            garage_score = 1
         else:
-            running_score = running_score + .3
+            garage_score = .5
+
+        if preferences.highestPreference == 'Garage':
+            garage_score = 3 * garage_score
+        elif preferences.secondHighestPreference == 'Garage':
+            garage_score = 2 * garage_score
+        running_score = running_score + garage_score
 
         # Backyard
-        if self.backyard == testing.backyard:
-            running_score = running_score + 1
+        backyard_score = 0
+        if self.backyard == preferences.backyard:
+            backyard_score = 1
         else:
-            running_score = running_score + .3
+            backyard_score = .5
 
-        running_normalized = running_score / 6
+        if preferences.highestPreference == 'Backayard':
+            backyard_score = 3 * backyard_score
+        elif preferences.secondHighestPreference == 'Backyard':
+            backyard_score = 2 * backyard_score
+        running_score = running_score + backyard_score
+
+        running_normalized = running_score / (6 + 2 + 1)
         self.score = running_normalized
         return running_normalized
 
